@@ -4,4 +4,6 @@ require 'kramdown'
 require 'kramdown/denden'
 require 'pathname'
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start do
+  add_filter '/test|vendor/'
+end
