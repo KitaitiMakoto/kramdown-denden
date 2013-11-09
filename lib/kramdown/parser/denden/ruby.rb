@@ -1,3 +1,4 @@
+require_relative '../../converter/html'
 module Kramdown
   module Parser
     module Denden
