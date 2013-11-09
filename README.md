@@ -1,8 +1,12 @@
-# Kramdown::Denden
+Kramdown Denden
+===============
 
-TODO: Write a gem description
+This is an extension for kramdown to parse [Den-Den Markdown][dendenmarkdown] format.
 
-## Installation
+Den-Den Markdown is a Markdown extension for [EPUB 3.0 Content Documents][epub30-contentdocs], written by [@lostandfound][lostandfound] in PHP. Thanks for his great work! This library is a Ruby port of it.
+
+Installation
+------------
 
 Add this line to your application's Gemfile:
 
@@ -16,14 +20,47 @@ Or install it yourself as:
 
     $ gem install kramdown-denden
 
-## Usage
+Usage
+-----
 
-TODO: Write usage instructions here
+### Command-line tool
 
-## Contributing
+Use `kramdown` command with `DendenMarkdown` as input format.
+
+Specifying Markdown file:
+
+    $ kramdown -i DendenMarkdown path/to/document.md
+
+Reading from standard input:
+
+    $ echo '{電子出版|electronic publishing}' | kramdown -i DendenMarkdown
+    <p><ruby>電子出版<rt>electronic publishing</rt></ruby></p>
+
+### Ruby interface
+
+Specify `DendenMarkdown` as input format like other formats:
+
+```ruby
+require 'kramdown/denden'
+
+doc = Kramdown::Document.new('{電子出版|electronic publishing}', input: 'DendenMarkdown')
+doc.to_html #=> "<p><ruby>電子出版<rt>electronic publishing</rt></ruby></p>\n"
+```
+
+See also
+--------
+
+* [Original Den-Den Markdown implementation in PHP][dendenmarkdown]
+
+Contributing
+------------
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+[dendenmarkdown]: https://github.com/denshoch/DenDenMarkdown
+[epub30-contentdocs]: http://www.idpf.org/epub/30/spec/epub30-contentdocs.html
+[lostandfound]: https://github.com/lostandfound
