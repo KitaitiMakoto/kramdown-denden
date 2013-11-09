@@ -3,7 +3,7 @@ Kramdown Denden
 [![Build Status](https://travis-ci.org/KitaitiMakoto/kramdown-denden.png?branch=master)](https://travis-ci.org/KitaitiMakoto/kramdown-denden)
 [![Coverage Status](https://coveralls.io/repos/KitaitiMakoto/kramdown-denden/badge.png?branch=master)](https://coveralls.io/r/KitaitiMakoto/kramdown-denden?branch=master)
 
-This is an extension for kramdown to parse [Den-Den Markdown][dendenmarkdown] format.
+This is an extension for [kramdown][kramdown] to parse [Den-Den Markdown][dendenmarkdown] format.
 
 Den-Den Markdown is a Markdown extension for [EPUB 3.0 Content Documents][epub30-contentdocs], written by [@lostandfound][lostandfound] in PHP. Thanks for his great work! This library is a Ruby port of it.
 
@@ -55,6 +55,7 @@ See also
 * [Original Den-Den Markdown implementation in PHP][dendenmarkdown]
 * [Original Den-Den Markdown specification][dendenmarkdown-spec]
 * [EPUB 3.0 Content Documents][epub30-contentdocs]
+* [kramdown][kramdown]
 
 Development setup
 -----------------
@@ -80,6 +81,7 @@ Contributing
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+[kramdown]: https://github.com/gettalong/kramdown
 [dendenmarkdown]: https://github.com/denshoch/DenDenMarkdown
 [epub30-contentdocs]: http://www.idpf.org/epub/30/spec/epub30-contentdocs.html
 [lostandfound]: https://github.com/lostandfound
