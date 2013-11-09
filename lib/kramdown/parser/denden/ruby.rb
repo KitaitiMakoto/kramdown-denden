@@ -2,7 +2,7 @@ require_relative '../../converter/html'
 module Kramdown
   module Parser
     module Denden
-      RUBY_START = /{([^}|]+)\|([^}]+)}/
+      RUBY_START = /{([^}|]+)(?<!\\)\|([^}]+)}/
 
       def parse_ruby
         ruby = Element.new(:ruby)
