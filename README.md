@@ -61,7 +61,7 @@ Development setup
 
     $ gem install bundler
 
-### Install dpendent gems
+### Install dependent gems
 
     $ bundle install --path=vendor/bundle
 
