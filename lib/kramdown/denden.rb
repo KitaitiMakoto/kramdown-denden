@@ -1,7 +1,2 @@
-require "kramdown/denden/version"
-
-module Kramdown
-  module Denden
-    # Your code goes here...
-  end
-end
+require 'kramdown/parser/denden'
+require_relative 'converter/html'
