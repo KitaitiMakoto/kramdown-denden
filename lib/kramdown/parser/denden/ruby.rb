@@ -3,7 +3,6 @@ module Kramdown
     module Denden
       RUBY_START = /{([^}|]+)\|([^}]+)}/
 
-      # @todo: parse children as span
       def parse_ruby
         ruby = Element.new(:ruby)
         rb = @src[1]
