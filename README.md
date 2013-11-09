@@ -54,6 +54,21 @@ See also
 
 * [Original Den-Den Markdown implementation in PHP][dendenmarkdown]
 
+Development setup
+-----------------
+
+### Install Bundler
+
+    $ gem install bundler
+
+### Install dpendent gems
+
+    $ bundle install --path=vendor/bundle
+
+### Run test
+
+    $ bundle exec rake test
+
 Contributing
 ------------
 
