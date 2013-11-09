@@ -1,5 +1,7 @@
 Kramdown Denden
 ===============
+[![Build Status](https://travis-ci.org/KitaitiMakoto/kramdown-denden.png?branch=master)](https://travis-ci.org/KitaitiMakoto/kramdown-denden)
+[![Coverage Status](https://coveralls.io/repos/KitaitiMakoto/kramdown-denden/badge.png?branch=master)](https://coveralls.io/r/KitaitiMakoto/kramdown-denden?branch=master)
 
 This is an extension for kramdown to parse [Den-Den Markdown][dendenmarkdown] format.
 
