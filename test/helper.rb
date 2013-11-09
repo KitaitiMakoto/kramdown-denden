@@ -7,3 +7,5 @@ require 'test/unit/notify'
 require 'kramdown'
 require 'kramdown/denden'
 require 'pathname'
+require 'coveralls'
+Coveralls.wear!
