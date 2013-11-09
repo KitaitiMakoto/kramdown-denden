@@ -53,6 +53,8 @@ See also
 --------
 
 * [Original Den-Den Markdown implementation in PHP][dendenmarkdown]
+* [Original Den-Den Markdown specification][dendenmarkdown-spec]
+* [EPUB 3.0 Content Documents][epub30-contentdocs]
 
 Development setup
 -----------------
@@ -81,3 +83,4 @@ Contributing
 [dendenmarkdown]: https://github.com/denshoch/DenDenMarkdown
 [epub30-contentdocs]: http://www.idpf.org/epub/30/spec/epub30-contentdocs.html
 [lostandfound]: https://github.com/lostandfound
+[dendenmarkdown-spec]: http://conv.denshochan.com/markdown
