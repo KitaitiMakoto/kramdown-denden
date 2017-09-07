@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Kramdown::Denden::VERSION
   spec.authors       = ["KITAITI Makoto"]
   spec.email         = ["KitaitiMakoto@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{kramdown extension for DenDenMarkdown}
+  spec.summary       = %q{This is an extension for kramdown to parse Den-Den Markdown format.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
